@@ -5,25 +5,29 @@
 
 .container {
   display: flex;
+  width: 100%;
+  height: 100%;
+}
+.background {
+  background-color: #f2f2f2;
+  width: 700px;
 }
 
 .baloon-1 {
-  width: 30%;
-  height: 30%;
   position: absolute;
-  top: 560px;
-  left: 0;
+  top: 500px;
+  left: 150px;
+  width: 70px;
   animation-name: baloon-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .baloon-2 {
-  width: 30%;
-  height: 30%;
   position: absolute;
-  top: 560px;
-  left: 900px;
+  top: 500px;
+  right: 200px;
+  width: 70px;
   transform: scaleX(-1);
   animation-name: baloon-animation;
   animation-duration: 3s;
@@ -32,11 +36,10 @@
 }
 
 .bike {
-  width: 40%;
-  height: 40%;
   position: absolute;
   top: 260px;
-  left: 0;
+  left: 50px;
+  width: 150px;
   animation-name: bike-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -44,33 +47,30 @@
 }
 
 .front-tire {
-  width: 15%;
-  height: 15%;
   position: absolute;
-  top: 456px;
-  left: 282px;
+  top: 399px;
+  left: 167px;
+  width: 60px;
   animation-name: front-tire-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .rear-tire {
-  width: 15%;
-  height: 15%;
   position: absolute;
-  top: 456px;
-  left: 104px;
+  top: 400px;
+  left: 44px;
+  width: 60px;
   animation-name: rear-tire-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .shadow {
-  width: 30%;
-  height: 30%;
   position: absolute;
-  top: 450px;
-  left: 90px;
+  top: 448px;
+  left: 16px;
+  width: 250px;
   animation-name: shadow-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -86,35 +86,35 @@
 }
 @keyframes bike-animation {
   0% {
-    left: 0px;
+    left: 50px;
   }
   100% {
-    left: 1218px;
+    left: 1250px;
   }
 }
 @keyframes front-tire-animation {
   0% {
-    left: 282px;
+    left: 167px;
     transform: rotate(-360deg);
   }
   100% {
-    left: 1500px;
+    left: 1367px;
   }
 }
 @keyframes rear-tire-animation {
   0% {
-    left: 104px;
+    left: 44px;
     transform: rotate(-360deg);
   }
   100% {
-    left: 1322px;
+    left: 1244px;
   }
 }
 @keyframes shadow-animation {
   0% {
-    left: 90px;
+    left: 16px;
   }
   100% {
-    left: 1268px;
+    left: 1216px;
   }
 }
