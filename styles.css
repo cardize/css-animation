@@ -10,7 +10,7 @@
 }
 .background {
   background-color: #f2f2f2;
-  width: 700px;
+  width: 800px;
 }
 
 .baloon-1 {
@@ -43,7 +43,7 @@
   animation-name: bike-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear 2s;
 }
 
 .front-tire {
@@ -54,7 +54,7 @@
   animation-name: front-tire-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear 2s;
 }
 .rear-tire {
   position: absolute;
@@ -64,7 +64,7 @@
   animation-name: rear-tire-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear 2s;
 }
 .shadow {
   position: absolute;
@@ -74,7 +74,7 @@
   animation-name: shadow-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear 2s;
 }
 @keyframes baloon-animation {
   0% {
