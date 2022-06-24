@@ -1,0 +1,97 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="178"
+  height="177"
+  viewBox="0 0 178 177"
+>
+  <g
+    id="Vector_Smart_Object"
+    data-name="Vector Smart Object"
+    transform="translate(-151.232 -435.505)"
+  >
+    <g id="Group_3" data-name="Group 3">
+      <g id="Group_1" data-name="Group 1">
+        <rect
+          id="Rectangle_1"
+          data-name="Rectangle 1"
+          width="1.585"
+          height="160.345"
+          transform="translate(238.445 445.283)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_2"
+          data-name="Rectangle 2"
+          width="1.576"
+          height="161.251"
+          transform="matrix(0, 1, -1, 0, 319.862, 524.668)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_3"
+          data-name="Rectangle 3"
+          width="1.585"
+          height="160.345"
+          transform="translate(295.687 468.208) rotate(45)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_4"
+          data-name="Rectangle 4"
+          width="1.585"
+          height="160.345"
+          transform="translate(296.808 581.589) rotate(135)"
+          fill="#979696"
+        />
+      </g>
+      <g id="Group_2" data-name="Group 2">
+        <rect
+          id="Rectangle_5"
+          data-name="Rectangle 5"
+          width="1.585"
+          height="160.345"
+          transform="translate(266.86 450.131) rotate(20.598)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_6"
+          data-name="Rectangle 6"
+          width="1.585"
+          height="160.345"
+          transform="matrix(-0.352, 0.936, -0.936, -0.352, 314.986, 552.926)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_7"
+          data-name="Rectangle 7"
+          width="1.585"
+          height="160.345"
+          transform="matrix(0.413, 0.911, -0.911, 0.413, 312.331, 491.611)"
+          fill="#979696"
+        />
+        <rect
+          id="Rectangle_8"
+          data-name="Rectangle 8"
+          width="1.585"
+          height="160.345"
+          transform="matrix(-0.911, 0.413, -0.413, -0.911, 273.266, 598.142)"
+          fill="#979696"
+        />
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4">
+      <path
+        id="Path_1"
+        data-name="Path 1"
+        d="M240.231,612.505c-49.074,0-89-39.7-89-88.5s39.925-88.5,89-88.5,89,39.7,89,88.5S289.307,612.505,240.231,612.505Zm0-163.262c-41.456,0-75.184,33.537-75.184,74.762s33.728,74.762,75.184,74.762,75.186-33.539,75.186-74.762S281.689,449.244,240.231,449.244Z"
+        fill="#979696"
+      />
+      <path
+        id="Path_2"
+        data-name="Path 2"
+        d="M240.231,598.768c-41.456,0-75.184-33.539-75.184-74.762s33.728-74.762,75.184-74.762,75.186,33.537,75.186,74.762S281.689,598.768,240.231,598.768Zm0-146.1c-39.556,0-71.738,32-71.738,71.336s32.182,71.335,71.738,71.335,71.739-32,71.739-71.335S279.789,452.669,240.231,452.669Z"
+        fill="#5a5a59"
+      />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.baloon-1 {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 560px;
+  left: 0;
+  animation-name: baloon-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.baloon-2 {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 560px;
+  left: 900px;
+  transform: scaleX(-1);
+  animation-name: baloon-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bike {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  animation-name: bike-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.front-tire {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 456px;
+  left: 282px;
+  animation-name: front-tire-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.rear-tire {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 456px;
+  left: 104px;
+  animation-name: rear-tire-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.shadow {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 450px;
+  left: 90px;
+  animation-name: shadow-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes baloon-animation {
+  0% {
+    top: 600px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes bike-animation {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 1218px;
+  }
+}
+@keyframes front-tire-animation {
+  0% {
+    left: 282px;
+    transform: rotate(-360deg);
+  }
+  100% {
+    left: 1500px;
+  }
+}
+@keyframes rear-tire-animation {
+  0% {
+    left: 104px;
+    transform: rotate(-360deg);
+  }
+  100% {
+    left: 1322px;
+  }
+}
+@keyframes shadow-animation {
+  0% {
+    left: 90px;
+  }
+  100% {
+    left: 1268px;
+  }
+}
