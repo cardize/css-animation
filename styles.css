@@ -19,7 +19,7 @@
   left: 150px;
   width: 70px;
   animation-name: baloon-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -30,7 +30,7 @@
   width: 70px;
   transform: scaleX(-1);
   animation-name: baloon-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -41,7 +41,7 @@
   left: 50px;
   width: 150px;
   animation-name: bike-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear 2s;
 }
@@ -52,7 +52,7 @@
   left: 167px;
   width: 60px;
   animation-name: front-tire-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear 2s;
 }
@@ -62,7 +62,7 @@
   left: 44px;
   width: 60px;
   animation-name: rear-tire-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear 2s;
 }
@@ -72,7 +72,7 @@
   left: 16px;
   width: 250px;
   animation-name: shadow-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear 2s;
 }
